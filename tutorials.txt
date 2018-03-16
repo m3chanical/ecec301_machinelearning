@@ -1,0 +1,2 @@
+The tutorial that the wine_fraud program is based on:
+https://www.springboard.com/blog/beginners-guide-neural-network-in-python-scikit-learn-0-18/
