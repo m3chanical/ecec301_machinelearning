@@ -11,4 +11,4 @@ Fool around with the 'dark_or_light' examples to try and make it better/optimize
 
 # part 3
 
-The "Stock Market" program basically has everything we already need for this part.  It's just a unique program that the group has created. We could look to implement a nice GUI as a finishing touch.
+The "Stock Market" program (stock_predictor.py) basically has everything we already need for this part.  It's just a unique program that the group has created. We could look to implement a nice GUI as a finishing touch.
