@@ -29,7 +29,7 @@
 
 # Alright, now for the stuff you're actually grading me for
 # First, let's do all the prep stuff, you wrote this, so I'll spare the explanation, but I am going to increase the
-# size of the matrix to 9x9, because the dataset is too simple right now
+# size of the matrix to 9x9, because the dataset is too simple right now and I like to live dangerously
 
 import numpy as np
 zero_one = [0, 1]
@@ -61,8 +61,8 @@ from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import classification_report,confusion_matrix,accuracy_score
 
 # Great! Now that that's done, we can do some fun stuff
-# There are tons onf things that influence how likely it is to develop a quality neural network
-# However, try as you may to to develop a perfect method, for complex datasets, it often comes down to chance
+# There are tons of things that influence how likely it is to develop a quality neural network
+# However, try as you may to to develop a perfect method, for complex datasets, it often comes down to chance.
 # In fact, a script can often result in 100% accuracy on one run, then drop to 10% on the next
 
 
@@ -105,8 +105,8 @@ print "Cumulative Accuracy: %.02f%%\n" % (float(accuracy_score(y_test,prediction
 # "BUT WAIT" I hear you say, that took really long. Is this technique even worth it?
 # Well, not on it's own no. but that's what multi-core processors are for!
 # Here's one way to do it with the multiprocessing module.
-# I commented it out because for some reason, it doesn't play well with PyCharm.
-# It should work if you run it in a terminal though!
+# I commented it out because for some reason, it doesn't play nicely with PyCharm.
+# It should work if you run it in a terminal though! (I hope)
 
 """
 import multiprocessing as mp
