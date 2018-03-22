@@ -82,7 +82,8 @@ print index_of_best
 
 optimal_perceptron = models[index_of_best]
 
-# And finally, run the predictions a second time. Why? Well this proves that the randomness is entirely in the training process, and not the predicting
+# And finally, run the predictions a second time. Why? Well this proves that the randomness is entirely in the training process, 
+# and not during the predicting
 predictions = optimal_perceptron.predict(X_test)
 
 # And also evaluate all the guesses just for fun, oh I'm using Pandas for this, feel free to comment this out if you don't have it installed
