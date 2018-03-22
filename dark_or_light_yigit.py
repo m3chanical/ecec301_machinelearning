@@ -40,7 +40,7 @@ The default solver 'adam' works pretty well on relatively
 
 To explore this, I played with the solver .I chose hidden layer size to be 4.
 The solver for weight optimization is changed to adam. The time of execution is 0.351841252357 
-seconds with solver chosen to be 'adam' instead of 'lbfgs' . In both cases, noe of the cells was misclassified.
+seconds with solver chosen to be 'adam' instead of 'lbfgs' . In both cases, none of the cells was misclassified.
 
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 
@@ -109,10 +109,8 @@ The number of misclassified dark of light images: 0
 
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 '''
-'''
 
 # START WITH EXAMPLE 1 -->  then EXAMPLE 2 -->  then EXAMPLE 3
-
 # Step 1 - Create a numpy array of measurements X.
 # Instead of 30, there will be only 4 features - one for each element in the 2x2 array of light and dark cells.
 
